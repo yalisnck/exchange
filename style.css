@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,8 +50,8 @@ header .container-fluid {
 */
 
 @media screen and (min-width: 1281px) {
-    .html {
-        font-size: 32px;
+    html {
+        font-size: 26px;
     }
 }
 
@@ -61,8 +61,8 @@ header .container-fluid {
   */
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .html {
-        font-size: 26px;
+    html {
+        font-size: 20px;
     }
 }
 
@@ -72,8 +72,8 @@ header .container-fluid {
   */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .html {
-        font-size: 20px;
+    html {
+        font-size: 18px;
     }
 }
 
@@ -82,8 +82,8 @@ header .container-fluid {
     ##Ekran = 768px to 1024px Arası Ekranlar
   */
 
-@media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .html {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
         font-size: 14px;
     }
 }
@@ -94,18 +94,7 @@ header .container-fluid {
   */
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
-    .html {
+    html {
         font-size: 10px;
-    }
-}
-
-/* 
-    ##Cihaz = En Çok Tercih Edilen Mobil Boyutlar (Portrait/Dikey Modda)
-    ##Ekran = 320px to 479px Arası Ekranlar
-  */
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .html {
-        font-size: 8px;
     }
 }
