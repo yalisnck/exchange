@@ -17,6 +17,7 @@ body {
 p {
     font-size: .6rem;
 }
+
 img {
     width: 5.2rem;
 }
@@ -26,9 +27,10 @@ header .container-fluid {
     height: 4.5rem;
 }
 
-.container-m-1 .row, .container{
+.container-m-1 .row,
+.container {
     width: 40rem;
-    height: 3rem;   
+    height: 3rem;
     /* font-size: 1.5rem; */
     /* padding-top: 1.5rem; */
 }
@@ -40,4 +42,70 @@ header .container-fluid {
 .left {
     padding-top: .5rem;
     padding-left: .5rem;
+}
+
+/* 
+  ##Cihaz = Masaüstü
+  ##Ekran = 1281px 'den yüksek çözünürlükler için
+*/
+
+@media screen and (min-width: 1281px) {
+    .html {
+        font-size: 32px;
+    }
+}
+
+/* 
+    ##Cihaz = Laptoplar, Masaüstü
+    ##Ekran = 1025px to 1280px Arası Ekranlar
+  */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .html {
+        font-size: 26px;
+    }
+}
+
+/* 
+    ##Cihaz = Tabletler, Ipad (portrait/dikey modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .html {
+        font-size: 20px;
+    }
+}
+
+/* 
+    ##Cihaz = Tabletler, Ipad (landscape/yatay modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+
+@media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .html {
+        font-size: 14px;
+    }
+}
+
+/* 
+    ##Cihaz = Düşük Çözünürlüklü Tablet ve Mobil Ekranlar (Landscape / Yatay Modda)
+    ##Ekran = 481px to 767px Arası Ekranlar
+  */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .html {
+        font-size: 10px;
+    }
+}
+
+/* 
+    ##Cihaz = En Çok Tercih Edilen Mobil Boyutlar (Portrait/Dikey Modda)
+    ##Ekran = 320px to 479px Arası Ekranlar
+  */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .html {
+        font-size: 8px;
+    }
 }
