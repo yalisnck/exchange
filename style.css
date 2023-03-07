@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: .6rem;
+}
+img {
+    width: 5.2rem;
+}
+
+header .container-fluid {
+    background-color: #333;
+    height: 4.5rem;
+}
+
+.container-m-1 .row, .container{
+    width: 40rem;
+    height: 3rem;   
+    /* font-size: 1.5rem; */
+    /* padding-top: 1.5rem; */
+}
+
+.container-m .row {
+    height: 7rem;
+}
+
+.left {
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
