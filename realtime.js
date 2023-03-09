@@ -1,5 +1,4 @@
 var datetime = new Date()
-console.log(datetime);
 document.getElementById("realtime").textContent = datetime;
 function refreshTime() {
     const timeDisplay = document.getElementById("realtime");

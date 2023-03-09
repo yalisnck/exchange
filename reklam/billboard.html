@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billboard</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+
+            overflow: hidden;
+        }
+    </style>
+
+
+    <video id="video" autoplay loop muted>
+        <source src="billboards/1.mp4" type="video/mp4" />
+    </video>
+
+    <script>
+        // For Video 
+        window.onresize = function () {
+            var video = document.querySelector("#video");
+            video.width = window.innerWidth;
+            video.height = window.innerHeight;
+        };
+        window.onload = function () { window.onresize(); };
+
+        setInterval(function back() {
+            window.history.back()
+            // window.location.assign("index.html");
+        }, 3000)
+
+    </script>
+
+
+</html>
